@@ -820,7 +820,7 @@
   "unable_to_change_display_opts": "Unable to change column display options.",
   "unable_to_connect_to_database": "Unable to connect to the database",
   "unable_to_delete_count_rows": "{count, plural, one {Unable to delete row.} other {Unable to delete {count} rows.}}",
-  "unable_to_delete_item": "Unable to delete {item}.",
+ "unable_to_delete_item": "This {item} cannot be deleted because it is referenced by other items.",
   "unable_to_fetch_table_constraints": "Unable to fetch table constraints",
   "unable_to_find_row": "Unable to find row",
   "unable_to_load_data_latest_release": "Unable to load data about the latest release.",
