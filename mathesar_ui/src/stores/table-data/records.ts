@@ -428,7 +428,7 @@ export class RecordsData {
         persistedRowsToDelete.forEach((row) =>
           rowsFailedToDelete.set(
             row.identifier,
-            RpcError.fromAnything(RpcError),
+            RpcError.fromAnything(error),
           ),
         );
       }
